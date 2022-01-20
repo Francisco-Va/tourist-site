@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="estilos/estilosfinal.css">
+    <script src=""></script>
+    <title>Proyecto html y CSS</title>
+</head>
+
+<body class="contened">
+    <header id="tit1">
+        <h1>
+            <blockquote>Tu campamento</blockquote>
+        </h1>
+        <p>
+        <p id="enplaya"><a href="#section__beach">Playa</a></p>
+        <p id="enparque"><a href="#section__park">Parque</a></p>
+        <p id="enrio"><a href="#section__river"> Río</a></p>
+        </p>
+    </header>
+
+    <section id="sect1">
+        <div id="nube">
+            <p id="tit2">
+                <strong>Hacemos realidad tus soñados viajes.</strong>
+            </p>
+
+            <p>
+                <b>
+                    Escoje el lugar, los días y te llevamos donde tu quieras
+                </b>
+            </p>
+        </div>
+    </section>
+
+    <section>
+
+        <article class="conte1">
+
+            <article class="playa1">
+                <img id="img1p" src="./imagenes/plaia.jpg">
+            </article>
+
+            <article class="playa2">
+                <h1 id="section__beach">Playa</h1>
+                <p>
+                    Tee damos el mejor recorrido por los mares.
+                <p>
+            </article>
+
+            <article class="playa3">
+                <img id="img3p" src="./imagenes/playa2.jpg">
+            </article>
+        </article>
+
+        <article class="conte2">
+
+            <article class="parque1">
+                <img id="img1pa" src="./imagenes/mex.jpg" alt="">
+            </article>
+
+            <article class="parque2">
+                <h1  id="section__park">Parque</h1>
+                <p>Tenemos los más hermosos senderos</p>
+            </article>
+
+            <article class="parque3">
+                <img id="img3pa" src="./imagenes/repuestoP.jpg" alt="">
+            </article>
+        </article>
+
+        <article class="conte3">
+
+            <article class="rio1">
+                <img id="img1r" src="./imagenes/celeste.jpg" alt="">
+            </article>
+
+            <article class="rio2">
+                <h1 id="section__river">Río</h1>
+                <p>Recorre nuestros espectaculares ríos</p>
+            </article>
+
+            <article class="rio3">
+                <img id="img3r" src="./imagenes/riocl.jpg">
+            </article>
+
+        </article>
+
+    </section>
+
+    <footer class="pie">
+        <div id="dpie">
+            <h2>Dirección</h2>
+            <p>Costa Rica</p>
+            <p>Alajuela</p>
+            <p>Código postal
+                20101</p>
+        </div>
+
+        <form id="form">
+            <p>
+            <h2>Contacto</h2>
+
+            <p>
+                <label for="nombre">Email*</label>
+                <br>
+                <input type="Email" name="Email" placeholder="Ej: vargas@gmail.com" required>
+            </p>
+
+            <p id="edad">
+                <label for="nombre"><strong>Edad</strong></label>
+                <br>
+                <input type="Edad" name="Edad" placeholder="Ej: 25" required>
+            </p>
+
+            <p>
+                <label for="tipo">¿Cómo llegaste aquí?*</label><br />
+                <select name="tipo" multiple="true" required>
+                    <option value="Google">Búsqueda en Google</option>
+                    <option value="Facebook">Por Facebook</option>
+                    <option value="amistades">Me lo contó un amigo</option>
+                    <option value="Otro">Otro medio</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="comentario" required>Descripción*</label><br />
+                <textarea name="comentario" cols="30" rows="10" required></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar" required />
+            </p>
+        </form>
+    </footer>
+</body>
+
+</html>
